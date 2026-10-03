@@ -1,0 +1,24 @@
+int CycleLength(ListNode* head) {
+    if (head == NULL || head->next == NULL) return -1;
+
+    ListNode *p = head;
+    ListNode *q = head;
+
+    while (q != NULL && q->next != NULL) {
+        p = p->next;
+        q = q->next->next;
+
+        if (p == q) {
+            int length = 1;      
+            q = q->next;        
+
+            while (q != p) {    
+                q = q->next;
+                length++;
+            }
+
+            return length;
+        }
+    }
+    return -1; 
+}
