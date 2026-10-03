@@ -9,9 +9,9 @@ The purpose of this repository is to document my progress, practice problem solv
 The solutions are organized by week:
 
 ```text
-Week-01/
-Week-02/
-Week-03/
+WEEK_01/
+WEEK_02_TOPIC_NAME/
+WEEK_03_TOPIC_NAME/
 ...
 ```
 
@@ -19,7 +19,7 @@ Each folder contains the solutions for that week's problems.
 
 ## Language
 
-The solutions in this repository are primarily written in Python.
+The solutions in this repository are primarily written in Python, occasionally in C++.
 
 ## Platform
 
